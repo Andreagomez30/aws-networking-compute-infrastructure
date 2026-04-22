@@ -33,9 +33,13 @@ Diseño de redes lógicas aisladas mediante **Amazon VPC**.
 ---
 
 ## 📐 3. Arquitectura Aplicada
-Diseño de soluciones integrales siguiendo las mejores prácticas del **AWS Well-Architected Framework**.
+Este apartado se enfoca en el diseño de soluciones siguiendo el **AWS Well-Architected Framework**, priorizando la alta disponibilidad y la eficiencia de costos.
 
-* **Implementación:** Se diseñó una infraestructura que incluye balanceadores de carga (ALB) y distribución de recursos en múltiples Zonas de Disponibilidad (Multi-AZ) para garantizar la tolerancia a fallos.
+* **Análisis realizado:** Se evaluó una infraestructura Multi-AZ para garantizar la resiliencia del sistema ante fallos de infraestructura física.
+* **Componentes clave:** Implementación de Balanceadores de Carga (ALB) y estrategias de escalado horizontal.
+
+> **Diseño de la Solución:**
+> ![Arquitectura Aplicada](./img/arquitectura-aplicada.png)
 
 ---
 
